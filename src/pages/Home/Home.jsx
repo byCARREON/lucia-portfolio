@@ -10,24 +10,16 @@ function Home() {
   const [showComponents, setShowComponents] = useState(false);
 
   useEffect(() => {
-    const introAnimationShown = localStorage.getItem('introAnimationShown');
-
-    if (!introAnimationShown) {
-      // Si la animación de introducción no se ha mostrado antes, la mostramos.
-      const delay = setTimeout(() => {
-        setShowComponents(true);
-        localStorage.setItem('introAnimationShown', 'true'); // Marcar la animación como mostrada.
-      }, 3250);
-
-      return () => clearTimeout(delay); // Limpia el timeout si el componente se desmonta antes de ejecutarlo.
-    } else {
-      // Si la animación de introducción ya se ha mostrado antes, mostramos los componentes directamente.
+    const delay = setTimeout(() => {
       setShowComponents(true);
-    }
+    }, 3250);
+
+    return () => clearTimeout(delay);
   }, []);
 
   return (
     <div>
+      <IntroAnimation />
       {showComponents && (
         <>
           <Navbar />

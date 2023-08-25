@@ -16,11 +16,11 @@ function Gallery({ images }) {
       {images.map((image, index) => (
         <div
           key={index}
-          className={`col-span-${index % 3 === 0 ? '2' : '1'} relative`}
+          className={`col-span-${(index % 3 === 0) ? 2 : 1} relative`}
           onMouseEnter={() => setHoverIndex(index)}
           onMouseLeave={() => setHoverIndex(null)}
         >
-          <img src={image.src} alt={image.imgText} className="w-full rounded-md" />
+          <img src={image.src} alt={image.imgText} className="w-full rounded-md transform hover:scale-105 transition-transform duration-300" />
           <div className={`absolute inset-0 flex items-center justify-center rounded-md bg-black bg-opacity-50 transition-opacity duration-300 ${hoverIndex === index ? 'opacity-100' : 'opacity-0'}`}>
             <p className="text-white text-lg">{image.imgText}</p>
           </div>
