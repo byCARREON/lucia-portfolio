@@ -12,7 +12,7 @@ function Home() {
   useEffect(() => {
     const delay = setTimeout(() => {
       setShowComponents(true);
-    }, 3250);
+    }, 3500);
 
     return () => clearTimeout(delay);
   }, []);
