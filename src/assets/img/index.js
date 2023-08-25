@@ -66,12 +66,12 @@ import peta3 from './PETA/3.jpg';
 import peta4 from './PETA/4.jpg';
 import peta5 from './PETA/5.jpg';
 
-import sanah1 from './sanah/1.jpg';
-import sanah2 from './sanah/2.jpg';
-import sanah3 from './sanah/3.jpg';
-import sanah4 from './sanah/4.jpg';
-import sanah5 from './sanah/5.jpg';
-import sanah6 from './sanah/6.jpg';
+import sanah1 from './SANAH/1.jpg';
+import sanah2 from './SANAH/2.jpg';
+import sanah3 from './SANAH/3.jpg';
+import sanah4 from './SANAH/4.jpg';
+import sanah5 from './SANAH/5.jpg';
+import sanah6 from './SANAH/6.jpg';
 
 import ig1 from './instagram/ig1.jpg'
 import ig2 from './instagram/ig2.jpg'
