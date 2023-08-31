@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { crudoImages } from '../../assets/img';
+import { headerImages } from '../../assets/img';
 import icon from '../../assets/icons/sun-and-moon.png'
 
 function Header() {
@@ -24,7 +24,7 @@ function Header() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const nextIndex = (currentImageIndex + 1) % crudoImages.length;
+      const nextIndex = (currentImageIndex + 1) % headerImages.length;
       setCurrentImageIndex(nextIndex);
     }, 1500);
 
@@ -67,7 +67,7 @@ function Header() {
         transition={{ duration: 0.5, ease: 'easeInOut' }}
         className="w-full"
       >
-        <img src={crudoImages[currentImageIndex]} alt="" />
+        <img className='h-[1600px]' src={headerImages[currentImageIndex]} alt="" />
       </motion.div>
     </header>
   );
