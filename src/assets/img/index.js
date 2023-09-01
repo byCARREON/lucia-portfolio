@@ -23,7 +23,7 @@ import venus10 from './VENUS/10.webp';
 import svenus1 from './VENUS2/1.webp';
 import svenus2 from './VENUS2/2.webp';
 import svenus3 from './VENUS2/3.png';
-import svenus4 from './VENUS2/4.png';
+import svenus4 from './VENUS2/4.webp';
 import svenus5 from './VENUS2/5.webp';
 import svenus6 from './VENUS2/6.webp';
 import svenus7 from './VENUS2/7.webp';

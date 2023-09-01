@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { headerImages } from '../../assets/img';
-import icon from '../../assets/icons/sun-and-moon.png'
 
 function Header() {
   const [scrollProgress, setScrollProgress] = useState(0);
