@@ -134,8 +134,11 @@ const crudoImages = [
 
 const headerImages = [
     crudo2,
-    sanah2,
+    anat7,
+    sanat7,
     anat4,
+    venus6,
+    crudo1,
     venus7,
     svenus7,
     editorial10
