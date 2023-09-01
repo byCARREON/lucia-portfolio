@@ -133,6 +133,11 @@ img {
   clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
+.show {
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Ajusta la duración de la transición según tus preferencias */
+}
+
 /*---- Cursor ----*/
 .cursor {
   position: absolute;

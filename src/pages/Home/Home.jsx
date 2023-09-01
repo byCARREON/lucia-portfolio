@@ -20,14 +20,13 @@ function Home() {
   return (
     <div>
       <IntroAnimation />
-      {showComponents && (
+      
         <>
           <Navbar />
           <Header />
           <Project />
           <Footer />
         </>
-      )}
     </div>
   );
 }

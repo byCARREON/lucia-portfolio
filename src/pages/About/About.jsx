@@ -20,25 +20,21 @@ function About() {
   }, [logosArray.length]);
 
   const textLines = [
-    "De niña acompañaba a la oficina a mi mamá,",
-    "y por iniciativa durante la tarde investigaba",
-    "sobre algún tema y al final del día se lo exponía,",
-    "casi siempre era sobre tortugas, muchos años después",
-    "me enteré que en la cultura maya mi totem es la tortuga",
-    "según el día que nací, curiosamente, actualmente,",
-    "vivo en tierras Mayas, lo que ha sido una infinita",
-    "fuente de inspiración, y no solo eso, si no que mi amor",
-    "por la investigación fue creciendo y ahora lo utilizo",
-    "en mi carrera como creativa y planner.",
-    "Si me felicitas en mi cumpleaños, sabré que también",
-    "te gusta investigar. Hay tanta información, que juntando",
-    "las piezas que ya existen con las chispas de lo intangible",
-    "(las ideas) la creatividad se vuelve un estilo de vida.",
-    "Sueño con ser una eterna turista, y ser capaz de apreciar",
-    "cada detalle ... me encanta estar en lo desconocido.",
-    "Mi familia se cambiaba mucho de ciudad, por lo que",
-    "tuve que desarrollar el don del camaleón y ser capaz",
-    "de adaptarme a cualquier entorno.",
+    "My name is Diana Lucía, and I'm on a journey to blend my love for concept",
+    "development with the art of direction.",
+    "I find inspiration in the everyday, and I believe that life is a canvas waiting to be",
+    "adorned with unforgettable moments.I thrive on crafting spaces and experiences",
+    "that resonate with people on a deeply emotional level.",
+    "My fascination with creativity isn't just about aesthetics; it's about creating",
+    "environments that tell stories and evoke feelings.",
+    "I’m trying to develop everything since the narrative, a chapter in a larger story where",
+    "every detail matters. From the concept to the campaign or execution, it's all part of",
+    "the artistry that transforms an idea into something truly special.",
+    "As I embark on my journey in art direction, I'm excited to bring my passion for market",
+    "research and design to a broader canvas. I see art direction as the perfect",
+    "intersection of my love for aesthetics and my desire to create meaningful, immersive",
+    "experiences. It's about shaping visual narratives that captivate, inspire, and leave a",
+    "lasting impression.",
   ];
 
   const textLines2 = [
@@ -56,7 +52,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <section className="lg:flex py-24 justify-center gap-24 container">
+      <section className="xl:flex xl:flex-row flex flex-col items-center xl:items-stretch py-24 justify-center gap-24 container">
       <div className="max-w-xl mb-8">
           <motion.img
             src={aboutImage}
@@ -65,54 +61,75 @@ function About() {
           />
         </div>
         <div className=''>
-          <h2 className="text-4xl font-bold mb-6 mt-32">ABOUT ME</h2>
+          <h2 className="text-4xl font-bold mb-6 xl:mt-32">ABOUT ME</h2>
           <div className="max-w-2xl text-lg leading-relaxed mb-12">
-            {textLines.map((line, index) => (
-              <motion.p
-                key={index}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
-                className=""
-              >
-                {line}
-              </motion.p>
-            ))}
-            <div className='pt-4'>
-            {textLines2.map((line, index) => (
-              <motion.p
-                key={index}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
-                className=""
-              >
-                {line}
-              </motion.p>
-            ))}
-            </div>
+          <p>My name is Diana Lucía, and I'm on a journey to blend my love for concept development with the art of direction.</p> <br />
+
+          <p>
+            I find inspiration in the everyday, and I believe that life is a canvas waiting to be
+            adorned with unforgettable moments.I thrive on crafting spaces and experiences
+            that resonate with people on a deeply emotional level.
+          </p> <br />
+
+          <p>
+            My fascination with creativity isn't just about aesthetics; it's about creating
+            environments that tell stories and evoke feelings.
+            I’m trying to develop everything since the narrative, a chapter in a larger story where
+            every detail matters. From the concept to the campaign or execution, it's all part of
+            the artistry that transforms an idea into something truly special.
+          </p> <br />
+
+          <p>
+          As I embark on my journey in art direction, I'm excited to bring my passion for market
+research and design to a broader canvas. I see art direction as the perfect
+intersection of my love for aesthetics and my desire to create meaningful, immersive
+experiences. It's about shaping visual narratives that captivate, inspire, and leave a
+lasting impression.
+          </p><br />
+
+          <p>
+          I see my job as a lifestyle, you'll find me exploring art galleries, doing some market
+research while sipping on a cup of artisanal herbal infusion, or wandering through
+nature to soak up inspiration from the world around me.
+          </p><br />
+
+          <p>
+          I believe that every moment, whether big or small, is an opportunity to curate a
+beautiful experience.
+          </p><br />
+
+          <p>
+          Join me on this exciting journey as I continue to explore the boundless possibilities
+of advertising and art direction. Let's create, inspire, and make every moment a
+masterpiece.
+          </p>
+          
           </div>
           <div className=''>
 
             <h2 className='text-5xl'>My Journey</h2>
             <LineAnimation />
             <div className=''>
-              <motion.img
-                src={logosArray[currentLogoIndex]}
-                alt="Logo"
-                className="w-[150px] h-[100px] mt-6 transition duration-300 ease-in-out"
-              />
+              <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
+                  <motion.img
+                      src={logosArray[currentLogoIndex]}
+                      alt="Logo"
+                      className="w-[150px] h-[100px] mt-6 transition duration-300 ease-in-out"
+                  />
+              </a>
             </div>
           </div>
       <div className='mt-8'>
         <h2 className='text-5xl'>EDUCATION</h2>
         <LineAnimation />
         <div className='inline'>
-          <motion.img
-            src={logos2[currentLogoIndex]}
-            alt="Logo"
-            className="w-[200px] h-[100px] mt-6 transition duration-300 ease-in-out"
-          />
+          <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
+              <motion.img
+                  src={logos2[currentLogoIndex]}
+                  alt="Logo"
+                  className="w-[200px] h-[100px] mt-6 transition duration-300 ease-in-out"
+              />
+          </a>
         </div>
       </div>
         </div>
