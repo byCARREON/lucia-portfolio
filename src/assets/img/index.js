@@ -105,22 +105,25 @@ import editorial8 from './editorial/8.webp'
 import editorial9 from './editorial/9.webp'
 import editorial10 from './editorial/10.webp'
 
+import me from './instagram/me.webp'
+import me2 from './about/me2.webp'
+import me3 from './about/me3.webp'
 
 const logos = [
-    bramah,
-    impaakt,
-    zara,
-    hiru,
     arjal,
+    hiru,
+    zara,
+    impaakt,
+    bramah
 ]
 const logos2 = [
-    logo1,
-    logo2,
-    logo3,
-    logo4,
-    logo5,
-    logo6,
     logo7,
+    logo6,
+    logo5,
+    logo4,
+    logo3,
+    logo2,
+    logo1,
 ]
 
 const crudoImages = [
@@ -166,103 +169,109 @@ const projectImg = [
     editorial1
 ]
 
-export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2 };
+const meImg = [
+    me,
+    me2,
+    me3
+]
+
+export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2, meImg };
 
 export const crudoGalleryImages = [
-    { src: crudo1, imgText: 'Image 1' },
-    { src: crudo2, imgText: 'Image 2' },
-    { src: crudo3, imgText: 'Image 3' },
-    { src: crudo4, imgText: 'Image 4' },
-    { src: crudo5, imgText: 'Image 5' },
-    { src: crudo6, imgText: 'Image 6' },
-    { src: crudo7, imgText: 'Image 7' },
-    { src: crudo8, imgText: 'Image 8' },
-    { src: crudo9, imgText: 'Image 9' },
+    { src: crudo1, imgTitle:'',  imgText: '' },
+    { src: crudo2, imgTitle:'',  imgText: '' },
+    { src: crudo3, imgTitle:'',  imgText: '' },
+    { src: crudo4, imgTitle:'',  imgText: '' },
+    { src: crudo5, imgTitle:'',  imgText: '' },
+    { src: crudo6, imgTitle:'',  imgText: '' },
+    { src: crudo7, imgTitle:'',  imgText: '' },
+    { src: crudo8, imgTitle:'',  imgText: '' },
+    { src: crudo9, imgTitle:'',  imgText: '' },
   ];
     
 export const venusGalleryImages = [
-{ src: venus1, imgText: 'Image 1' },
-{ src: venus2, imgText: 'Image 2' },
-{ src: venus3, imgText: 'Image 3' },
-{ src: venus4, imgText: 'Image 4' },
-{ src: venus5, imgText: 'Image 5' },
-{ src: venus6, imgText: 'Image 6' },
-{ src: venus7, imgText: 'Image 7' },
-{ src: venus8, imgText: 'Image 8' },
-{ src: venus9, imgText: 'Image 9' },
-{ src: venus10, imgText: 'Image 10' },
+{ src: venus1, imgTitle:'Celestial Inspiration', imgText: 'Our concept development begins in the night sky, where Venus, the Evening Star, casts her radiant glow' },
+{ src: venus2, imgTitle:'The Goddess Within',  imgText: "Within the salon's concept, we unveil the goddess within every woman. Each space within our sanctuary embodies a different facet of the sacred feminine - Venus as the goddess of love, beauty, fertility, and sensuality. It's an exploration of womanhood as an ever-evolving tapestry of energies." },
+{ src: venus3, imgTitle:'',  imgText: '' },
+{ src: venus4, imgTitle:'Ritualistic Vibe',  imgText: "We infuse each corner with the energy of ancient ceremonies, from the soothing scent of smudging sage to the soft, hypnotic rhythm of gentle drumming. It's an invitation for women to reconnect with themselves, to rediscover their inner divinity" },
+{ src: venus5, imgTitle:'',  imgText: '' },
+{ src: venus6, imgTitle:'',  imgText: '' },
+{ src: venus7, imgTitle:'',  imgText: '' },
+{ src: venus8, imgTitle:'',  imgText: '' },
+{ src: venus9, imgTitle:'',  imgText: '' },
+{ src: venus10, imgTitle:'',  imgText: '' },
 ];
 
 export const svenusGalleryImages = [
-    { src: svenus1, imgText: 'Image 1' },
-    { src: svenus2, imgText: 'Image 2' },
-    { src: svenus3, imgText: 'Image 3' },
-    { src: svenus4, imgText: 'Image 4' },
-    { src: svenus5, imgText: 'Image 5' },
-    { src: svenus6, imgText: 'Image 6' },
-    { src: svenus7, imgText: 'Image 7' },
-    { src: svenus8, imgText: 'Image 8' },
-    { src: svenus9, imgText: 'Image 9' },
-    { src: svenus10, imgText: 'Image 10' },
+    { src: svenus1, imgTitle:'',  imgText: '' },
+    { src: svenus2, imgTitle:'Earthly Elements',  imgText: 'The concept development brings forth earthly elements as grounding forces. We incorporate natural materials - the warmth of reclaimed wood, the flow of water features, and the softness of earthy textiles - to create an atmosphere that resonates with the primal energy of Mother Earth herself.' },
+    { src: svenus3, imgTitle:'',  imgText: '' },
+    { src: svenus4, imgTitle:'Cosmic Color Palette',  imgText: 'Our color palette is inspired by the ever-changing hues of Venus in the evening sky. Deep violets, velvety blues, and rose-petal pinks merge seamlessly, reflecting the celestial ballet above. These colors guide women through their journey, evoking emotions and energy from within.' },
+    { src: svenus5, imgTitle:'',  imgText: '' },
+    { src: svenus6, imgTitle:'',  imgText: '' },
+    { src: svenus7, imgTitle:'Ethereal Lighting',  imgText: "Lighting design is integral to our concept. Soft, ethereal illumination mimics the gentle glow of Venus, casting enchanting shadows that dance upon the walls. It's an invitation to bask in the divine light within." },
+    { src: svenus8, imgTitle:'',  imgText: '' },
+    { src: svenus9, imgTitle:'Intimate Spaces',  imgText: "Within the salon, we have created intimate spaces that cater to every aspect of a woman's inner Venus. From luxurious skincare rituals to sensual aromatherapy treatments, each space is a sanctuary for self-discovery and self-love." },
+    { src: svenus10, imgTitle:'Venusian Artistry',  imgText: 'Artistry, in all its forms, flourishes within our concept. The walls of our salon are adorned with enchanting artwork that celebrates the feminine mystique, showcasing the creative spirit of Venus herself.' },
 ];
 export const weddingGalleryImages = [
-    { src: wedding1, imgText: 'Image 1' },
-    { src: wedding2, imgText: 'Image 2' },
-    { src: wedding3, imgText: 'Image 3' },
-    { src: wedding4, imgText: 'Image 4' },
-    { src: wedding5, imgText: 'Image 5' },
-    { src: wedding6, imgText: 'Image 6' },
-    { src: wedding7, imgText: 'Image 7' },
-    { src: wedding8, imgText: 'Image 8' },
-    { src: wedding9, imgText: 'Image 9' },
-    { src: wedding10, imgText: 'Image 10' },
+    { src: wedding1, imgTitle:'Personalization',  imgText: "Every couple is unique, and their love story is one-of-a-kind. The act of curating a wedding allows you to infuse the day with the couple's personalities, passions, and shared history. It's about crafting an experience that is a true reflection of their love, values, and dreams."},
+    { src: wedding2, imgTitle:'Emotional Resonance',  imgText: "Weddings are not just events; they are emotional landmarks. The process of curating every detail, from the venue and décor to the menu and music, is about eliciting deep emotions. It's about creating an atmosphere where love, joy, and connection flourish, leaving a lasting impact on everyone present." },
+    { src: wedding3, imgTitle:'Design as Expression',  imgText: "Design is a language, and a wedding is an opportunity to express a couple's unique style and taste. Every element, whether it's the choice of colors, flowers, or table settings, communicates a message. Curating these design elements is akin to composing a symphony of aesthetics that tells a beautiful story" },
+    { src: wedding4, imgTitle:'Storytelling',  imgText: "Weddings are inherently narrative-driven. They mark the beginning of a new chapter in a couple's life. Curating the wedding is like writing a storybook, with each detail contributing to the narrative. From the save-the-date cards to the final dance, every moment is a page in the story." },
+    { src: wedding5, imgTitle:'Creating Memories',  imgText: "Is not just an event; it's an experience. It's about crafting moments that become cherished memories for the couple and their loved ones. These memories, woven into the fabric of the day, become a source of joy and nostalgia for years to come." },
+    { src: wedding6, imgTitle:'Fusion of Art and Science',  imgText: "It's about the creative process of design and aesthetics coupled with the meticulous planning, logistics, and timing that ensure everything runs seamlessly." },
+    { src: wedding7, imgTitle:'Attention to Detail',  imgText: "It's about the tiny, often unnoticed elements that contribute to the overall ambiance. The way the light filters through the trees, the scent of the flowers, the texture of the table linens—these details create a multi-sensory experience." },
+    { src: wedding8, imgTitle:'Celebration of Love',  imgText: "At its core, curating a wedding is a celebration of love. It's an act of love by the couple for each other and for their guests. It's an opportunity to share their love story with the world and to create an environment where love is not just witnessed but celebrated." },
+    { src: wedding9, imgTitle:'',  imgText: "" },
+    { src: wedding10, imgTitle:'',  imgText: "" },
 ];
 
 export const anatGalleryImages = [
-    { src: anat1, imgText: 'Image 1' },
-    { src: anat2, imgText: 'Image 2' },
-    { src: anat3, imgText: 'Image 3' },
-    { src: anat4, imgText: 'Image 4' },
-    { src: anat5, imgText: 'Image 5' },
-    { src: anat6, imgText: 'Image 6' },
-    { src: anat7, imgText: 'Image 7' },
-    { src: anat8, imgText: 'Image 8' },
+    { src: anat1, imgTitle:'',  imgText: 'Image 1' },
+    { src: anat2, imgTitle:'',  imgText: 'Image 2' },
+    { src: anat3, imgTitle:'',  imgText: 'Image 3' },
+    { src: anat4, imgTitle:'',  imgText: 'Image 4' },
+    { src: anat5, imgTitle:'',  imgText: 'Image 5' },
+    { src: anat6, imgTitle:'',  imgText: 'Image 6' },
+    { src: anat7, imgTitle:'',  imgText: 'Image 7' },
+    { src: anat8, imgTitle:'',  imgText: 'Image 8' },
 ];
 
 export const sanatGalleryImages = [
-    { src: sanat1, imgText: 'Image 1' },
-    { src: sanat2, imgText: 'Image 2' },
-    { src: sanat3, imgText: 'Image 3' },
-    { src: sanat4, imgText: 'Image 4' },
-    { src: sanat5, imgText: 'Image 5' },
-    { src: sanat6, imgText: 'Image 6' },
-    { src: sanat7, imgText: 'Image 7' },
-    { src: sanat8, imgText: 'Image 8' },
+    { src: sanat1, imgTitle:'Infusing Tantric Spirituality',  imgText: 'At the heart of this challenge is infusing the brand with the spiritual essence of tantra. Tantra, often associated with heightened consciousness and unity, must be translated into the real estate experience. This involves capturing the essence of sensuality, spirituality, and connectedness within the spaces being offered.' },
+    { src: sanat2, imgTitle:'Artistic and Aesthetic Balance:',  imgText: 'Balancing the artistic and aesthetic aspects with the practicalities of real estate is a delicate task. The spaces must be not only aesthetically pleasing but also functional and marketable. The challenge is to ensure that the tantric elements enhance the overall appeal without compromising on functionality.' },
+    { src: sanat3, imgTitle:'User Experience Journey',  imgText: 'The user experience journey in real estate is typically linear, with stages like viewing, financing, and purchase. The challenge is to introduce tantric elements at every touchpoint, from the initial encounter with the property to the final purchase, ensuring that the journey is immersive and transformative.' },
+    { src: sanat4, imgTitle:'Storytelling Through Materials',  imgText: 'Copper, bamboo, linen, and cotton are not merely materials; they are storytellers. The challenge is to narrate the tale of these materials and their significance in the user experience. Copper, for instance, symbolizes energy and conductivity. How can this element be used in design to create spaces that inspire connection and vitality?' },
+    { src: sanat5, imgTitle:'Sustainable and Ethical Sourcing',  imgText: "Copper, bamboo, linen, and cotton are often associated with sustainable and ethical sourcing. This aspect must be highlighted, aligning with the values of conscious consumers. The challenge is to weave the sustainability narrative into the brand's story, making it an integral part of the user experience." },
+    { src: sanat6, imgTitle:'',  imgText: '' },
+    { src: sanat7, imgTitle:'',  imgText: '' },
+    { src: sanat8, imgTitle:'',  imgText: '' },
 ];
 export const petaGalleryImages = [
-    { src: peta1, imgText: 'Image 1' },
-    { src: peta2, imgText: 'Image 2' },
-    { src: peta3, imgText: 'Image 3' },
-    { src: peta4, imgText: 'Image 4' },
-    { src: peta5, imgText: 'Image 5' },
+    { src: peta1, imgTitle:'Airport Billboard Displays', imgText: 'At the heart of our campaign are strategically placed billboards at major airports, ensuring a high-visibility platform to reach a diverse and global audience. These billboards feature compelling visuals alongside famous quotes and phrases about pain and cruelty, emphasizing the message that wearing mink eyelashes involves unnecessary suffering.' },
+    { src: peta2, imgTitle:'Compelling Imagery', imgText: "The campaign's imagery is emotionally charged, focusing on the mink's pain and distress during the eyelash harvesting process. Close-up shots of a suffering mink, paired with a contrasting image of beautiful, compassionate alternatives, drive home the message." },
+    { src: peta3, imgTitle:'', imgText: '' },
+    { src: peta4, imgTitle:'Impactful quotes', imgText: 'Famous quotes and phrases that highlight the concept of pain and cruelty are displayed prominently on the billboards. Some examples include:' },
+    { src: peta5, imgTitle:'', imgText: '' },
 ];
 export const sanah = [
-    { src: sanah1, imgText: 'Image 1' },
-    { src: sanah2, imgText: 'Image 2' },
-    { src: sanah3, imgText: 'Image 3' },
-    { src: sanah4, imgText: 'Image 4' },
-    { src: sanah5, imgText: 'Image 5' },
-    { src: sanah6, imgText: 'Image 6' },
+    { src: sanah1, imgTitle:'',  imgText: 'Image 1' },
+    { src: sanah2, imgTitle:'',  imgText: 'Image 2' },
+    { src: sanah3, imgTitle:'',  imgText: 'Image 3' },
+    { src: sanah4, imgTitle:'',  imgText: 'Image 4' },
+    { src: sanah5, imgTitle:'',  imgText: 'Image 5' },
+    { src: sanah6, imgTitle:'',  imgText: 'Image 6' },
 ];
 export const editorial = [
-    { src: editorial1, imgText: 'Image 1' },
-    { src: editorial2, imgText: 'Image 2' },
-    { src: editorial3, imgText: 'Image 3' },
-    { src: editorial4, imgText: 'Image 4' },
-    { src: editorial5, imgText: 'Image 5' },
-    { src: editorial6, imgText: 'Image 6' },
-    { src: editorial7, imgText: 'Image 7' },
-    { src: editorial8, imgText: 'Image 8' },
-    { src: editorial9, imgText: 'Image 9' },
-    { src: editorial10, imgText: 'Image 10' },
+    { src: editorial1, imgText: '' },
+    { src: editorial2, imgText: '' },
+    { src: editorial3, imgText: '' },
+    { src: editorial4, imgText: '' },
+    { src: editorial5, imgText: '' },
+    { src: editorial6, imgText: '' },
+    { src: editorial7, imgText: '' },
+    { src: editorial8, imgText: '' },
+    { src: editorial9, imgText: '' },
+    { src: editorial10, imgText: '' },
 ];

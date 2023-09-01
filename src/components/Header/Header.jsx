@@ -67,7 +67,7 @@ function Header() {
         transition={{ duration: 0.5, ease: 'easeInOut' }}
         className="w-full"
       >
-        <img className='h-[1600px]' src={headerImages[currentImageIndex]} alt="" />
+        <img className='h-[1200px]' src={headerImages[currentImageIndex]} alt="" />
       </motion.div>
     </header>
   );
