@@ -110,20 +110,20 @@ import me2 from './about/me2.webp'
 import me3 from './about/me3.webp'
 
 const logos = [
-    arjal,
-    hiru,
-    zara,
-    impaakt,
-    bramah
+    {src: arjal, text: "Market Research"},
+    {src: hiru, text: "Market Research"},
+    {src: zara, text: "Visuals"},
+    {src: impaakt, text: "Planning"},
+    {src: bramah, text: "Planning"},
 ]
 const logos2 = [
-    logo7,
-    logo6,
-    logo5,
-    logo4,
-    logo3,
-    logo2,
-    logo1,
+    {src: logo7, text: "Psicología Organizacional"},
+    {src: logo6, text: "Project Management"},
+    {src: logo5, text: "Diseño de interiores"},
+    {src: logo4, text: "Dirección de arte y publicidad"},
+    {src: logo3, text: "Design Management"},
+    {src: logo2, text: "Behavioral Design"},
+    {src: logo1, text: "Administración y estrategia"},
 ]
 
 const crudoImages = [
@@ -231,14 +231,14 @@ export const weddingGalleryImages = [
 ];
 
 export const anatGalleryImages = [
-    { src: anat1, imgTitle:'',  imgText: 'Image 1' },
-    { src: anat2, imgTitle:'',  imgText: 'Image 2' },
-    { src: anat3, imgTitle:'',  imgText: 'Image 3' },
-    { src: anat4, imgTitle:'',  imgText: 'Image 4' },
-    { src: anat5, imgTitle:'',  imgText: 'Image 5' },
-    { src: anat6, imgTitle:'',  imgText: 'Image 6' },
-    { src: anat7, imgTitle:'',  imgText: 'Image 7' },
-    { src: anat8, imgTitle:'',  imgText: 'Image 8' },
+    { src: anat8, imgTitle:'',  imgText: '' },
+    { src: anat7, imgTitle:'',  imgText: '' },
+    { src: anat4, imgTitle:'',  imgText: '' },
+    { src: anat1, imgTitle:'',  imgText: '' },
+    { src: anat2, imgTitle:'',  imgText: '' },
+    { src: anat3, imgTitle:'',  imgText: '' },
+    { src: anat6, imgTitle:'',  imgText: '' },
+    { src: anat5, imgTitle:'',  imgText: '' },
 ];
 
 export const sanatGalleryImages = [

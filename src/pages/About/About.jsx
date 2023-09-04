@@ -8,19 +8,47 @@ import { logos2 } from '../../assets/img';
 import LineAnimation from '../../components/Animations/lineAnimation';
 
 function About() {
-  const [currentLogoIndex, setCurrentLogoIndex] = useState(0);
+  const [currentLogoIndex1, setCurrentLogoIndex1] = useState(0);
+  const [currentLogoIndex2, setCurrentLogoIndex2] = useState(0);
   const logosArray = logos;
+  const logosArray2 = logos2;
 
+  // Carousel para "My Journey"
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentLogoIndex((prevIndex) => (prevIndex + 1) % logosArray.length);
-    }, 1250);
+    const interval1 = setInterval(() => {
+      setCurrentLogoIndex1((prevIndex) => (prevIndex + 1) % logosArray.length);
+    }, 2500);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval1);
   }, [logosArray.length]);
 
-  const handleNextImage = () => {
-    setCurrentLogoIndex((prevIndex) => (prevIndex + 1) % logosArray.length);
+  // Carousel para "EDUCATION"
+  useEffect(() => {
+    const interval2 = setInterval(() => {
+      setCurrentLogoIndex2((prevIndex) => (prevIndex + 1) % logosArray2.length);
+    }, 2500);
+
+    return () => clearInterval(interval2);
+  }, [logosArray2.length]);
+
+  const handleNextImage1 = () => {
+    setCurrentLogoIndex1((prevIndex) => (prevIndex + 1) % logosArray.length);
+  };
+
+  const handlePrevImage1 = () => {
+    setCurrentLogoIndex1((prevIndex) =>
+      prevIndex === 0 ? logosArray.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNextImage2 = () => {
+    setCurrentLogoIndex2((prevIndex) => (prevIndex + 1) % logosArray2.length);
+  };
+
+  const handlePrevImage2 = () => {
+    setCurrentLogoIndex2((prevIndex) =>
+      prevIndex === 0 ? logosArray2.length - 1 : prevIndex - 1
+    );
   };
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -95,26 +123,37 @@ masterpiece.
             <h2 className='text-5xl'>My Journey</h2>
             <LineAnimation />
             <div className='flex gap-12'>
-              <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
-                  <motion.img
-                      src={logosArray[currentLogoIndex]}
+              {/*<a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">*/}
+              <button className='text-[3rem] hover:opacity-10 transition-all easeIn' onClick={handlePrevImage1}>&#8249;</button>
+                <div className='flex flex-col items-center'>
+                  <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
+                    <motion.img
+                      src={logosArray[currentLogoIndex1].src}
                       alt="Logo"
                       className="w-[150px] h-[100px] mt-6 transition duration-300 ease-in-out"
-                  />
-              </a>
+                    />
+                  </a>
+                  <p className='mt-3'>{logosArray[currentLogoIndex1].text}</p>
+                </div>
+              <button className='text-[3rem] hover:opacity-10 transition-all easeIn' onClick={handleNextImage1}>&#8250;</button>
             </div>
           </div>
       <div className='mt-8'>
         <h2 className='text-5xl'>EDUCATION</h2>
         <LineAnimation />
-        <div className='inline'>
-          <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
-              <motion.img
-                  src={logos2[currentLogoIndex]}
+        <div className='flex gap-12'>
+          <button className='text-[3rem]  hover:opacity-10 transition-all easeIn' onClick={handlePrevImage2}>&#8249;</button>
+            <div className='flex flex-col items-center'>
+              <a href="https://www.linkedin.com/in/dianaluciacorrea/" target="_blank" rel="noopener noreferrer">
+                <motion.img
+                  src={logosArray2[currentLogoIndex2].src}
                   alt="Logo"
-                  className="w-[200px] h-[100px] mt-6 transition duration-300 ease-in-out"
-              />
-          </a>
+                  className="w-[150px] h-[100px] mt-6 transition duration-300 ease-in-out"
+                />
+              </a>
+              <p className='mt-3'>{logosArray2[currentLogoIndex2].text}</p>
+            </div>
+          <button className='text-[3rem] hover:opacity-10 transition-all easeIn' onClick={handleNextImage2}>&#8250;</button>
         </div>
       </div>
         </div>

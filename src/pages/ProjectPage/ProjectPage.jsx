@@ -46,7 +46,10 @@ function ProjectPage() {
       <Navbar />
       <div className="flex justify-center items-end my-[8vh]">
         <h2 className="text-[9vw] leading-[1.2]">{project.text}</h2>
-        <h3 className="text-[1.12vw]">{project.category}</h3>
+        <div className='flex justify-center items-center gap-4'>
+          <h3 className="text-[1.12vw]">{project.category}</h3>
+          {project.instagram}
+        </div>
       </div>
       <div>
         <img className="h-[800px]" src={project.imageSrc} alt={project.text} />
