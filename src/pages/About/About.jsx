@@ -65,7 +65,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <section className="xl:flex xl:flex-row flex flex-col items-center xl:items-stretch py-24 justify-center gap-24 container">
+      <section className="xl:flex xl:flex-row flex flex-col items-center py-24 justify-center gap-24 container ">
       <div className="max-w-xl mb-8">
           <motion.img
             src={imageArray[currentImageIndex]}

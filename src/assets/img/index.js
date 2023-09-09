@@ -50,6 +50,8 @@ import anat5 from './ANAT/5.webp';
 import anat6 from './ANAT/6.webp';
 import anat7 from './ANAT/7.webp';
 import anat8 from './ANAT/8.webp';
+import anat9 from './ANAT/9.webp';
+import anat10 from './ANAT/10.webp';
 
 import sanat1 from './ANAT2/1.webp';
 import sanat2 from './ANAT2/2.webp';
@@ -251,6 +253,8 @@ export const anatGalleryImages = [
     { src: anat3, imgTitle:'',  imgText: '' },
     { src: anat6, imgTitle:'',  imgText: '' },
     { src: anat5, imgTitle:'',  imgText: '' },
+    { src: anat9, imgTitle:'',  imgText: '' },
+    { src: anat10, imgTitle:'',  imgText: '' },
 ];
 
 export const sanatGalleryImages = [

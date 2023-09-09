@@ -16,6 +16,36 @@ export const menuItems = [
 
           <p className="pt-4"><span className="font-bold">Strategic truth:</span> Turn the party host into a Hero.</p>
 
+          <div className="pt-4">
+          <p className="font-bold">Team:</p>
+
+            <div className="flex gap-8 mt-4">
+              <div>
+                <p className="font-bold">Art Direction:</p>
+                <ul>
+                  <li>Danton del Aguila</li>
+                  <li>Valeria Herbas</li>
+                </ul>
+              </div>
+              
+              <div>
+                <p className="font-bold">Copywriting:</p>
+                <ul>
+                  <li>Diana Lucia</li>
+                </ul>
+              </div>
+              
+              <div>
+                <p className="font-bold">Planning:</p>
+                <ul>
+                  <li>Roberto Mendoza</li>
+                  <li>Francisco Vayas</li>
+                  <li>Ayde Romero</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </>
       ),
       description: (
