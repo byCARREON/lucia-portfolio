@@ -73,6 +73,18 @@ import sanah4 from './SANAH/4.webp';
 import sanah5 from './SANAH/5.webp';
 import sanah6 from './SANAH/6.webp';
 
+import heineken1 from './heineken/1.webp';
+import heineken2 from './heineken/2.webp';
+import heineken3 from './heineken/3.webp';
+import heineken4 from './heineken/4.webp';
+import heineken5 from './heineken/5.webp';
+import heineken6 from './heineken/6.webp';
+import heineken7 from './heineken/7.webp';
+import heineken8 from './heineken/8.webp';
+import heineken9 from './heineken/9.webp';
+import heineken10 from './heineken/10.webp';
+import heinekenVideo from '../videos/heinekenVideo.mp4';
+
 import ig1 from './instagram/ig1.webp'
 import ig2 from './instagram/ig2.jpg'
 import ig3 from './instagram/ig3.webp'
@@ -169,7 +181,8 @@ const projectImg = [
     sanat1,
     peta1,
     sanah1,
-    editorial1
+    editorial1,
+    heineken1,
 ]
 
 const meImg = [
@@ -178,7 +191,7 @@ const meImg = [
     me3
 ]
 
-export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2, meImg };
+export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2, meImg, heinekenVideo };
 
 export const crudoGalleryImages = [
     { src: crudo1, imgTitle:'',  imgText: '' },
@@ -277,4 +290,16 @@ export const editorial = [
     { src: editorial8, imgText: '' },
     { src: editorial9, imgText: '' },
     { src: editorial10, imgText: '' },
+];
+export const heineken = [
+    { src: heineken1, imgText: '' },
+    { src: heineken2, imgText: '' },
+    { src: heineken3, imgText: '' },
+    { src: heineken4, imgText: '' },
+    { src: heineken5, imgText: '' },
+    { src: heineken6, imgText: '' },
+    { src: heineken7, imgText: '' },
+    { src: heineken8, imgText: '' },
+    { src: heineken9, imgText: '' },
+    { src: heineken10, imgText: '' },
 ];

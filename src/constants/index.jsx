@@ -1,8 +1,42 @@
-import { projectImg, crudoImages, venusImages, petaGalleryImages, crudoGalleryImages, venusGalleryImages, anatGalleryImages, sanatGalleryImages, sanah, editorial, svenusGalleryImages, weddingGalleryImages } from "../assets/img";
+import { projectImg, crudoImages, venusImages, petaGalleryImages, crudoGalleryImages, venusGalleryImages, anatGalleryImages, sanatGalleryImages, sanah, editorial, svenusGalleryImages, weddingGalleryImages, heineken } from "../assets/img";
+import { heinekenVideo} from "../assets/img";
 
 export const menuItems = [
     {
       id: 1,
+      imageSrc: projectImg[9],
+      category:  "Concept Development",
+      title: 'HEINEKEN CAMPAIGN : THE GREEN HERO',
+      instagram: "",
+      text: "HEINEKEN",
+      conclusion: (
+        <>
+          <p className="pt-4"><span className="font-bold">Brand truth:</span> Heineken is a brand committed to the environment that seeks to encourage its consumers to have fun in a sustainable way.</p>
+
+          <p className="pt-4"><span className="font-bold">Consumer truth:</span> The host of the house has the obligation to pick up and clean up after the party.</p>
+
+          <p className="pt-4"><span className="font-bold">Strategic truth:</span> Turn the party host into a Hero.</p>
+
+        </>
+      ),
+      description: (
+        <>
+          <p className="pt-4"><span className="font-bold">Culture truth:</span> People are not aware of the environmental damage caused by partying.</p>
+
+          <p className="pt-4"><span className="font-bold">Rational:</span> The host is a true hero by nature, that courageous figure who does not hesitate to raise his hand when asked "Where is the party?". He is the friend who can always be trusted, the one who brings everyone together to create memorable moments that then become unforgettable memories. He always carries the best attitude no matter the situation, injecting a positive atmosphere into every moment. He is an expert at making the most of every moment, and those who have the pleasure of knowing him can attest to this.</p>
+
+          <p className="pt-4">With him, surprise is constant, and you know you can expect great things, especially in those moments before, during and after the party…</p>
+        </>
+      ),
+      galleryImages: heineken.map((image) => ({
+        src: image.src,
+        imgTitle: image.imgTitle,
+        imgText: image.imgText,
+      })),
+      video: heinekenVideo,
+    },
+    {
+      id: 2,
       imageSrc: projectImg[6],
       category:  "Concept Development",
       title: 'PETA Advertising Campaign: "Wearing the Pain"',
@@ -24,7 +58,7 @@ export const menuItems = [
       })),
     },
     {
-      id: 2,
+      id: 3,
       imageSrc: projectImg[0],
       category: "Art Direction",
       title: 'CRUDO',
@@ -67,7 +101,7 @@ export const menuItems = [
       })),
     },
     {
-      id: 3,
+      id: 4,
       imageSrc: projectImg[4],
       category:  "Art Direction",
       title: 'Creative Process: Tantric Hotel Boutique',
@@ -101,7 +135,7 @@ export const menuItems = [
       })),
     },
     {
-      id: 4,
+      id: 5,
       imageSrc: venusImages[1],
       category:  "Concept Development",
       title: 'The Venusian Beauty Salon - Honoring the sacred Feminine ',

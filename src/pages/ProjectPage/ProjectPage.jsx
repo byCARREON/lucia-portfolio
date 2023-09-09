@@ -60,6 +60,14 @@ function ProjectPage() {
           <h3 className="pr-64 text-[1.12vw]">Project Details</h3>
           <p className="text-[1.111vw]">{project.description}</p>
         </div>
+        <div className='mb-6'>
+          {project.video && (
+            <video controls="controls">
+              <source width="500px" height="500px" src={project.video} type="video/mp4" />
+            </video>
+          )}
+        </div>
+
         <Gallery images={project.galleryImages} />
         <div className='text-xl'>
           {project.conclusion}
