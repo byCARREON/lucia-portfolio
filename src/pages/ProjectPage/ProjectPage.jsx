@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { menuItems } from '../../constants';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import YouTube from 'react-youtube';
 
 function findProjectById(id) {
   return menuItems.find((item) => item.id === parseInt(id, 10));
@@ -62,9 +63,10 @@ function ProjectPage() {
         </div>
         <div className='mb-6'>
           {project.video && (
-            <video controls="controls">
-              <source width="500px" height="500px" src={project.video} type="video/mp4" />
-            </video>
+            <YouTube
+              videoId={project.video}
+              opts={{ width: '100%', height: '1080'}} // Opciones de ancho y alto
+            />
           )}
         </div>
 

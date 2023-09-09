@@ -83,7 +83,6 @@ import heineken7 from './heineken/7.webp';
 import heineken8 from './heineken/8.webp';
 import heineken9 from './heineken/9.webp';
 import heineken10 from './heineken/10.webp';
-import heinekenVideo from '../videos/heinekenVideo.mp4';
 
 import ig1 from './instagram/ig1.webp'
 import ig2 from './instagram/ig2.jpg'
@@ -191,7 +190,7 @@ const meImg = [
     me3
 ]
 
-export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2, meImg, heinekenVideo };
+export { crudoImages, venusImages, instagramImages, logos, projectImg, headerImages, logos2, meImg};
 
 export const crudoGalleryImages = [
     { src: crudo1, imgTitle:'',  imgText: '' },

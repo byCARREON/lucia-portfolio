@@ -1,5 +1,4 @@
 import { projectImg, crudoImages, venusImages, petaGalleryImages, crudoGalleryImages, venusGalleryImages, anatGalleryImages, sanatGalleryImages, sanah, editorial, svenusGalleryImages, weddingGalleryImages, heineken } from "../assets/img";
-import { heinekenVideo} from "../assets/img";
 
 export const menuItems = [
     {
@@ -33,7 +32,7 @@ export const menuItems = [
         imgTitle: image.imgTitle,
         imgText: image.imgText,
       })),
-      video: heinekenVideo,
+      video: "wi6pgn-8BRw",
     },
     {
       id: 2,

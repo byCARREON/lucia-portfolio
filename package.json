@@ -19,6 +19,7 @@
     "react-grid-gallery": "^1.0.0",
     "react-infinite-logo-slider": "^1.0.13",
     "react-router-dom": "^6.15.0",
+    "react-youtube": "^10.1.0",
     "smooth-scrollbar": "^8.8.4"
   },
   "devDependencies": {
